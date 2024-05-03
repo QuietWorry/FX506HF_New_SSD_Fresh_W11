@@ -1,4 +1,4 @@
-# Windows 11 Installation Guide for ASUS FX506HF
+# Windows 11 Installation Guide for ASUS FX506HF with Fresh NVME SSD
 
 This guide will help you install Windows 11 on your ASUS FX506HF laptop using a USB flash drive. Follow these steps carefully to ensure a successful installation.
 
