@@ -1,35 +1,41 @@
-# FX506HF_New_SSD_Fresh_W11
+# Windows 11 Installation Guide for ASUS FX506HF
 
-On separate PC [you will need the laptop a separate PC or Mac and two usb flash drives (>= 8GB)]
+This guide will help you install Windows 11 on your ASUS FX506HF laptop using a USB flash drive. Follow these steps carefully to ensure a successful installation.
 
-Windows 11 Official Setup:
-https://www.microsoft.com/software-download/windows11
-Choose “create … instillation media” and download
-Follow instruction to mount to USB
-Install drive to powered off Laptop
+## Prerequisites
 
-Drivers for Windows 11 Setup:
-You’ll need the intel storage driver for the Windows setup to recognize the SSD
-Go to ASUS.com/support and look up your FX506HF, go under “drivers & utilities”, then select show all for the “Chipset” drivers and download “IRST” driver
-Run .exe and extract to a second flash drive
-Keep second drive ready, but not installed on Laptop
+- A separate PC or Mac
+- Two USB flash drives (8GB or larger)
 
+## Step 1: Create Windows 11 Installation Media
 
-On New Laptop [*** Remember to remove second flash drive with IRST driver when instructed]
+1. Visit the [Windows 11 download page](https://www.microsoft.com/software-download/windows11).
+2. Choose "Create Windows 11 installation media" and download the tool.
+3. Follow the instructions to mount the Windows 11 image onto your USB flash drive.
+4. Ensure the USB drive is inserted into the powered-off laptop.
 
-Boot Windows 11 Setup USB Media:
-With only the USB containing the Windows Setup, power on the Laptop
-If the Windows Setup UI does not appear, go to bios and move the USB drive to the top of the boot order
-This may be when the laptop goes back to the setup stage I left it at, try out some of the Setup features to see if that outcome is possible
-If not, start a new Windows installation
-You will be asked to choose a C: drive. If the SSD does not show up, which is likely, select “load driver”
-Install the second USB (when to do this is up to how Windows setup recognizes the drive) and search its contents with the Setup Load Driver Menu. With “display only compatible drivers” selected at the bottom, there should be at least one driver option to load. If there are more select all
-Now the SSD should be recognized, delete what volumes it allows you to, then you may need to create a new partition to select for the C: Drive. WAIT! Before you confirm the SSD partition you’re going to use you NEED to remove the second USB drive with the IRST driver (I spent a day making this mistake, even though all advice told me to remove it the only things plugged into the laptop should be the power cord and USB with windows Setup)
-Then continue with Windows install
+## Step 2: Prepare Drivers for Windows 11
 
-Download and Install all Motherboard Drivers for full peripheral functionality:
-Go back to ASUS.com/support and look up the FX506HF (https://www.asus.com/supportonly/fx506hf/helpdesk_download/) and download all drivers (and software that you want, the apps make keeping the Laptop up to date easy, but do have performance loads) Make sure you are clicking the “show all” to display all drivers in each category. Some drivers are duplicates of older versions, just download the latest versions.
-Boot up windows, download these driver install files and run each of them individually then restart
-I hope this works, if not this is just the most full-proof solution I have, but I still have more ideas
+1. Download the Intel Storage Driver from [ASUS support](https://www.asus.com/support). Search for FX506HF under "Drivers & Utilities," then find the "IRST" driver in the "Chipset" section.
+2. Run the downloaded `.exe` file and extract the contents to a second USB flash drive.
+3. Keep this drive ready but do not insert it into the laptop yet.
 
-P.S. I wrote this pretty fast, let me know if you need more detail or just call (I have one thing to do today between 4 and 5:30, but free any other time and tomorrow)
+## Step 3: Install Windows 11
+
+1. With only the Windows Setup USB inserted, power on the laptop.
+2. If the setup does not start, access the BIOS and prioritize the USB drive in the boot order.
+3. Follow the on-screen instructions until you reach the point where you are asked to select a drive.
+4. If the SSD is not visible, choose "Load Driver" and insert the second USB flash drive when prompted.
+5. Search its contents for compatible drivers, select all that appear, and load them.
+6. Delete any existing partitions on the SSD if possible, then create a new partition for Windows.
+7. **Important**: Remove the second USB drive with the IRST driver before confirming the SSD partition.
+
+## Step 4: Install Motherboard Drivers
+
+1. Once Windows is installed, return to the [ASUS support page](https://www.asus.com/supportonly/fx506hf/helpdesk_download/) and download all necessary drivers and any desired software.
+2. Install each driver individually and restart the laptop as needed.
+
+## Notes
+
+- Ensure you follow these steps carefully. If there are issues, I have more solutions available.
+- I'm available for assistance if needed (except today between 4 and 5:30 PM). Feel free to call.
