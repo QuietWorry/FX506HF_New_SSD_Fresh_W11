@@ -28,7 +28,7 @@ This guide will help you install Windows 11 on your ASUS FX506HF laptop using a 
 4. If the SSD is not visible, choose "Load Driver" and insert the second USB flash drive when prompted.
 5. Search its contents for compatible drivers, select all that appear, and load them.
 6. Delete any existing partitions on the SSD if possible, then create a new partition for Windows.
-7. **Important**: Remove the second USB drive with the IRST driver before confirming the SSD partition.
+7. **Important**: Remove the second USB drive with the IRST driver before confirming the SSD partition. The laptop should **ONLY** have the Windows Setup USB and the power cord installed.
 
 ## Step 4: Install Motherboard Drivers
 
